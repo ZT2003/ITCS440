@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITCS440-Project</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            color: #175873;
+            text-align: center;
+            padding-top: 10px;
+            border-bottom: 3px dotted #0c1446;
+        }
+        .maze{
+            text-align: center;
+        }
+        .solution{
+            text-align: center;
+        }
+        .description{
+            padding-top: 20px;
+
+            text-align: center;
+        }
+        .square {
+            width: 30px;
+            height: 30px;
+            border: 1px black solid;
+            display: inline-block;
+            text-align: center;
+        }
+        .white {
+            background-color: white;
+            color: white;
+        }
+        .black {
+            background-color: black;
+        }
+        .grey {
+            background-color: gray;
+        }
+        .number {
+            border: none;
+        }
+        .green {
+            background-color: #87aca3;
+            color: #87aca3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+     <h2>ITCS440 - Intelligent systems</h2>
+     <h1 style="color: #0c1446;">Project</h1>
+     <h4>Students: <br>
+         1- Zainab Isa Tarada ID:202105668 <br>
+         2- Maryam Saeed Mohamed Al-Shahab ID:202107113 <br>
+         Section: 3   
+     </h4>
+    </div>
+    <div class="maze">
+      <h1 style="color: #2b7c85;">Maze</h1>
+      <div id="maze"></div>
+    </div>
+    <div class="solution">
+      <h1 style="color: #2b7c85;">Solution</h1>
+      <h3 id="path"></h3>
+      <div id="solution"></div>
+    </div>
+    <div class="description">
+      <b id="description"></b>
+    </div>
+      <script src="maze.js"></script>
+</body>
+</html>
